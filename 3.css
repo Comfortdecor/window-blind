@@ -1,0 +1,83 @@
+/* Общие стили */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8;
+}
+
+/* Хедер */
+#header {
+  background-color: #d2b48c;
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#header p {
+  margin-top: 10px;
+}
+
+/* Разделы */
+section {
+  background: #fff;
+  border: 1px solid #a3a19e;
+  border-radius:12px;
+  max-width:1200px;
+  margin:20px auto;
+  padding:20px;
+}
+
+/* Заголовки разделов */
+section h2 {
+  color:#a0522d;
+}
+
+/* Список услуг */
+ul {
+  padding-left:20px;
+}
+
+li {
+  margin-bottom:10px;
+}
+
+/* Контакты */
+#contacts p {
+  margin:10px0;
+}
+
+/* Ссылки */
+a {
+  color:#a0522d;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+/* Подвал сайта */
+#footer {
+  background-color:#d2b48c;
+  color:#fff;
+
+  padding:20px;
+
+   /* Центрирование текста */
+   text-align:center;
+}
+
+/* Адаптивность */
+@media(max-width:768px){
+
+    section{
+        width:auto; /* ширина по умолчанию на мобильных устройствах */
+        margin:10px; /* уменьшение отступов */
+        padding:15px; /* уменьшение внутреннего отступа */
+    }
+}
